@@ -1,0 +1,59 @@
+{
+    "name": "sfwcybersecurity/subscriptions",
+    "description": "subscription management system for Laravel.",
+    "type": "library",
+    "keywords": [
+        "plan",
+        "value",
+        "laravel",
+        "feature",
+        "database",
+        "recurring",
+        "subscription"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SFW"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^v10.0",
+        "doctrine/dbal": "^2.13.3|^3.1.4"
+    },
+    "require-dev": {
+        "illuminate/console": "^9.0|^10.0",
+        "illuminate/container": "^9.0|^10.0",
+        "phpunit/phpunit": "^9.5.8|^10.0",
+        "orchestra/testbench": "^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bpuig\\Subby\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bpuig\\Subby\\Tests\\": "tests",
+            "Bpuig\\Subby\\Tests\\Database\\Factories\\": "tests/Database/Factories"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "sfw\\SubscriptionManager\\SFWServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

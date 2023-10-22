@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/laravel-subby-main.iml" filepath="$PROJECT_DIR$/.idea/laravel-subby-main.iml" />
+      <module fileurl="file://$USER_HOME$/Library/Caches/JetBrains/Fleet/backend/2p9f4v85ql3uehbjpukc/projects/laravel-subby-main.f0b7872f/external_build_system/modules/laravel-subby-main-fleet.iml" filepath="$USER_HOME$/Library/Caches/JetBrains/Fleet/backend/2p9f4v85ql3uehbjpukc/projects/laravel-subby-main.f0b7872f/external_build_system/modules/laravel-subby-main-fleet.iml" />
+    </modules>
+  </component>
+</project>
