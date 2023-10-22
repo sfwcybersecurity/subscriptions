@@ -50,7 +50,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "sfw\\subscriptions\\SFWServiceProvider"
+                "sfwcybersecurity\\subscriptions\\SFWServiceProvider"
             ]
         }
     },
