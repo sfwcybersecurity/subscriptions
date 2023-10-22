@@ -28,16 +28,15 @@
         "phpunit/phpunit": "^9.5.8|^10.0",
         "orchestra/testbench": "^7.0|^8.0"
     },
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Bpuig\\Subby\\": "src"
+            "sfwcybersecurity\\subscriptions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Bpuig\\Subby\\Tests\\": "tests",
-            "Bpuig\\Subby\\Tests\\Database\\Factories\\": "tests/Database/Factories"
+            "sfwcybersecurity\\subscriptions\\Tests\\": "tests",
+            "sfwcybersecurity\\subscriptions\\Tests\\Database\\Factories\\": "tests/Database/Factories"
         }
     },
     "scripts": {
@@ -51,7 +50,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "sfw\\SubscriptionManager\\SFWServiceProvider"
+                "sfw\\subscriptions\\SFWServiceProvider"
             ]
         }
     },
